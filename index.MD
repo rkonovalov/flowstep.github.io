@@ -4,7 +4,7 @@ title: Main page
 description: 
 ---
 
-## Step Flow page
+## Flow Step page
 
 # Projects
 * [Active projects](projects/index.MD)
