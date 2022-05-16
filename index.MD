@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Main page
+title: Main Flow Step page
 description: 
 ---
 
-## Flow Step page
+## Main Flow Step page
