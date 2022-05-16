@@ -1,1 +1,9 @@
 theme: jekyll-theme-tactile
+title: Title
+description: Description
+show_downloads: false
+
+
+
+exclude:
+- assets/javascript/anchor-js
