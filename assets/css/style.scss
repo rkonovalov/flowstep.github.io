@@ -25,11 +25,12 @@
 
 .sticky {
   position: fixed;
-  top: 0;
+  top: -300px;
+  left: 80px;
   width: 100%
 }
 
 
-.sticky + .content {
+.sticky + #main_content {
   padding-top: 102px;
 }
