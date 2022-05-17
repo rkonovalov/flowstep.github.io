@@ -22,6 +22,26 @@
 
     gtag('config', 'UA-129284102-1');
 </script>
+    
+    
+<script>
+ window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("logo");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
 
 <!--
 <div id="menu" style="position: fixed; top: 50px; left: 20px; width: 250px; height: 500px;">
@@ -33,7 +53,7 @@
     <div class="inner">
 
         <header>
-            <div class="logo"></div>
+            <div class="logo" id="logo"></div>
         </header>
         <section id="downloads" class="clearfix">
             {% if site.show_downloads %}
